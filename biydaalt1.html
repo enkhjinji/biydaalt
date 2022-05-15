@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgba(241,241,241);
+        }
+        body{
+            padding: 10px;
+        }
+        .btn1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            font-family: "TradeGothic LT CondEighteen";
+            text-transform: uppercase;
+        }
+        .date{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+        .final1{
+            display: inline-block;
+        }
+        .final2{
+            display: inline-block;
+            
+        }
+        .final3{
+            display: inline-block;     
+        }
+        .final4{
+            display: inline-block;
+        }
+        .team12{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            position: relative;
+            margin: 10px;
+            border: 1px solid grey;
+        }
+        .team34{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;
+        }
+        .team56{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;
+        }
+        .team78{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;
+        }
+        .teamor1{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;
+            margin-top: 50px;
+            
+        }
+        .teamor2{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;
+            margin-top: 90px;
+        }
+        .teambro{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;
+            margin-top: 130px;
+        }
+        .teamgold{
+            width: 140px;
+            height: 70px;
+            background-color: white;
+            margin: 10px;
+            border: 1px solid grey;  
+            margin-top: 130px;
+        }
+        .namef{
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: grey;
+            font-size: 10px;
+         }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <div class="btn1">
+            <button onclick="startPause()">START SIMULATION</button>
+        </div>
+        <h6 class="date">15\05\2022</h6>
+    </div>
+
+    <div class="final1">
+        <div class="namef quarterF">Quarterfinals</div>
+        <div class="white white1">
+            <div class="team12"></div>
+            <div class="team34"></div>
+            <div class="team56"></div>
+            <div class="team78"></div>
+        </div>
+    </div>
+
+    <div class="final2">
+        <div class="namef semiF">Semifinals</div>
+        <div class="white ">
+            <div class="teamor1"></div>
+            <div class="teamor2"></div>
+        </div>
+    </div>
+
+    <div class="final3">
+        <div class=" namef bronze">Bronze medal game</div>  
+        <div class="white">
+            <div class="teambro"></div>
+
+        </div>
+    </div>
+     <div class="final4">
+         <div class="namef gold">Gold medal game</div>
+         <div class="white">
+            <div class="teamgold"></div>
+
+         </div>
+     </div>
+</body>
+</html>
